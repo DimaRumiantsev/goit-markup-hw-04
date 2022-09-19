@@ -136,6 +136,17 @@ color:var(--tekst-color);
  color:var(--fon-color);
 }
 
+.contact-svg{
+    
+    margin-right: 10px;
+    fill: #757575;
+}
+
+.contact-svg:hover,
+.contact-svg:focus{
+   fill: #2196F3;
+}
+
 .phone-number{
 font-weight: 500;
 font-size: 14px;
@@ -283,12 +294,44 @@ color:var(--tekst-color)
     letter-spacing: 0.03em;
     color: var(--tekst-color);
 }
+
+.social-list{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.social-list-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: #ffffff;
+}
+
+.social-list-link:hover,
+.social-list-link:focus{
+    background-color: #2196F3;
+}
+
+.social-list-link:hover .social-list-icon,
+.social-list-link:focus .social-list-icon{
+    fill: #FFFFFF;
+}
+
+.social-list-icon{
+    fill:#AFB1B8;
+}
+
 .job-title{
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--coment-color);
+    margin-bottom: 16px;
 }
 .team-photo{
     background: var(--title-color);
@@ -320,7 +363,7 @@ color:var(--tekst-color)
 
 .logo{
     display: block
-    margin-bottom: 20px;
+     margin-bottom: 20px;  
     }
 
 .logo-color-f{
