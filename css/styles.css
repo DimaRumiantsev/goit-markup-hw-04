@@ -6,6 +6,8 @@
   --title-color: #FFFFFF;
    --back-color: #f5f4fa;
    --logo-color:#000000;
+   --icon-color:#AFB1B8;
+
 
 }
 
@@ -137,7 +139,7 @@ color:var(--tekst-color);
 }
 
 .contact-svg{
-    
+    align-items: center;
     margin-right: 10px;
     fill: #757575;
 }
@@ -226,6 +228,18 @@ border: 1px solid transparent;
 .modal-btn:hover,
 .modal-btn:focus{
 background: #188ce8;
+}
+
+.descr-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    background: #F5F4FA;
+    border-radius: 4px;
+    padding: 25px 0px;
+    width: 270px;
+    height: 120px;
 }
 
 
@@ -346,6 +360,38 @@ color:var(--tekst-color)
     padding-bottom: 30px;
 }
 
+.client-list{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.client-list-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 170px;
+    height: 92px;
+    fill: #AFB1B8;
+    border: 1px solid var(--icon-color);
+    border-radius: 4px;
+    color: var(--icon-color);
+}
+
+.client-list-item :hover,
+.client-list-item :focus{
+    border-color: #2196F3;
+}
+
+.client-list-link :hover,
+.client-list-link :focus{
+ fill: #2196F3;
+}
+
+
+
+
+
 /*===========/WORK-PAGE===========*/
 
 /*===========FOOTER===========*/
@@ -361,9 +407,57 @@ color:var(--tekst-color)
     display: block;
 }
 
+.footer-container{
+    display: flex;
+    align-items: baseline;
+}
+
+.social-list-item{
+    height: 44px;
+    width: 44px;
+
+}
+
+.social-link-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: var(--title-color);
+}
+
+.social-link-footer:hover,
+.social-link-footer:focus{
+    background-color: #2196F3;
+}
+
+.link-footer{
+    fill: #FFFFFF;
+}
+
+.footer-detail-item:not(last-child){
+    margin-right: 70px;
+}
+
+.paragraf{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: var(--title-color);
+}
+
+.social-list-footer{
+    margin-top: 20px;
+
+}
+
 .logo{
     display: block
-     margin-bottom: 20px;  
+    margin-bottom: 20px;  
     }
 
 .logo-color-f{
