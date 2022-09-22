@@ -31,10 +31,18 @@
         </nav>
         <ul class="menu list">
             <li class="menu-item">
-                <a class="menu-mail link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                <a class="menu-mail link" href="mailto:info@devstudio.com" class="contact-icon link">
+                    <svg class="contact-svg" width="16" height="12">
+                        <use href="./images/sprite.svg#icon-envelope"></use>
+                    </svg> 
+                    info@devstudio.com</a>
             </li>
             <li class="menu-item">
-                <a class="phone-number link" href="tell:+380961111111">+38 096 111 11 11</a>  
+                <a class="phone-number link" href="tell:+380961111111" class="contact-icon link">
+                    <svg class="contact-svg" width="10" height="16">
+                        <use href="./images/sprite.svg#icon-smartphone"></use>
+                    </svg>  
+                    +38 096 111 11 11</a>  
             </li>
          </ul>  
          </div>   
@@ -53,6 +61,7 @@
             </ul>
                 <ul class="list prt-photo">
                     <li class="portfolio-projects ">
+                        <a class="portfolio-link link" href="#"></a>
                         <img src="./gallery/project.jpg" alt="tehnokryak" width="370">
                         <div  class="working-item">
                         <h2 class="portfolio-list">Технокряк</h2>
@@ -122,23 +131,58 @@
          <!--FOOTER CONTENT-->
          <footer class="footer-page">
             <div class="footer-container container">
+                <div class="footer-deteil">
            <a class="logo" href="index.html" lang="en" >Web<span class="logo-color-f">Studio</span></a>
            <address class="contact-info link" >
             <ul class="list">
-                <li>
+                <li class="footer-nav">
                     <a class="address-information link"href="https://goo.gl/maps/2DT9LogBwQYCnQ598" 
                     target="_blank"
                     rel="noopener noreferrer">г. Киев, пр-т Леси Украинки, 26</a>
                 </li>
-                <li>
+                <li class="footer-nav">
                     <a class="contact-information link"href="mailto:info@example.com">info@example.com</a>
                 </li>
-                <li>
+                <li class="footer-nav">
                     <a class="contact-information link" href="tell:+380991111111">+38 099 111 11 11</a>
                 </li>
             </ul>
            </address>
+        </div>
+        <div class="footer-detail">
+            <p class="paragraf">Присоединяйтесь</p>
+            <ul class="social-list list social-list-footer">
+                <li class="cosial-list-item">
+                    <a class="social-link-footer" href="#">
+                    <svg class="link-footer" widht="20px" height="20px">
+                        <use href="./images/sprite.svg#icon-instagram"></use>
+                    </svg>    
+                    </a>
+                </li>
+                <li class="cosial-list-item">
+                    <a class="social-link-footer" href="#">
+                    <svg class="link-footer" widht="20px" height="20px">
+                        <use href="./images/sprite.svg#icon-twitter"></use>
+                    </svg>    
+                    </a>
+                </li>
+                <li class="cosial-list-item">
+                    <a class="social-link-footer" href="#">
+                    <svg class="link-footer" widht="20px" height="20px">
+                        <use href="./images/sprite.svg#icon-facebook"></use>
+                    </svg>    
+                    </a>
+                </li>
+                <li class="cosial-list-item">
+                    <a class="social-link-footer" href="#">
+                    <svg class="link-footer" widht="20px" height="20px">
+                        <use href="./images/sprite.svg#icon-linkedin"></use>
+                    </svg>    
+                    </a>
+                </li>
+            </ul>
+        </div>
            </div>
         </footer>
-
+</body>
 </html>
