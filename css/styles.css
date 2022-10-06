@@ -121,7 +121,7 @@ color:var(--logo-color);
     display: flex;
     align-items: center;
     margin-left: auto;
-    margin-right: 50px;
+    gap: 50px;
 }
 
 .menu-link{
@@ -150,6 +150,8 @@ color:var(--tekst-color);
 }
 
 .phone-number{
+    display: flex;
+    justify-items: center;
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
@@ -161,9 +163,12 @@ color:var(--coment-color);
 color:var(--fon-color);
 }
 .menu-mail{
+    display: flex;
+    justify-content: center;
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
+padding: 32px 0;
 letter-spacing: 0.02em;
 color:var(--coment-color);  
 }
@@ -456,7 +461,7 @@ color:var(--tekst-color)
 }
 
 .logo{
-    display: block
+    display: block;
     margin-bottom: 20px;  
     }
 
