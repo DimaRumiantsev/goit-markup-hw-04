@@ -124,6 +124,9 @@ color:var(--logo-color);
     gap: 50px;
 }
 
+.menu-item :hover .contact-svg{fill: #2196F3;}
+.menu-item :focus .contact-svg{fill: #2196F3;}
+
 .menu-link{
 font-weight: 500;
 font-size: 14px;
@@ -245,7 +248,6 @@ background: #188ce8;
     margin-bottom: 30px;
     background: #F5F4FA;
     border-radius: 4px;
-    padding: 25px 0px;
     width: 270px;
     height: 120px;
 }
@@ -299,6 +301,10 @@ color:var(--tekst-color)
 
 .work-gallery{
     display: inline;
+}
+
+.work-page{
+    padding-bottom: 0;
 }
 
 .team{
@@ -582,6 +588,10 @@ gap: 8px;
 .portfolio-link:focus{
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 
+}
+
+.footer-deteil{
+    margin-right: 70px;
 }
 
 
