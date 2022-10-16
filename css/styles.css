@@ -93,8 +93,6 @@ color:var(--logo-color);
 }
 
 .page-header{
-    padding-top: 24px;
-    padding-bottom: 24px;
     border-bottom: 1px solid #ececec;
 }
 
@@ -218,10 +216,9 @@ color:var(--title-color)
     max-height: 600px;
     margin: 0 auto;
 }
-linear-gradient (rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
 
 .modal-btn{
-font-family: "Roboto", sans-serif;
+font-family: "Roboto",sans-serif;
 font-weight: 700;
 font-size: 16px;
 line-height: 1.88;
@@ -237,6 +234,7 @@ padding-left: 32px;
 padding-right: 32px;
 border: 1px solid transparent;
 }
+
 .modal-btn:hover,
 .modal-btn:focus{
 background: #188ce8;
